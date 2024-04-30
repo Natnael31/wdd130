@@ -1,0 +1,31 @@
+.logo {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    padding-right: 10px;
+}
+
+.banner{
+    display: flex;
+}
+
+.first-product-line {
+    display: flex;
+}
+
+.second-product-line{
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+.footer-images{
+    display: flex;
+}
