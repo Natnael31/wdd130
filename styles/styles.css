@@ -53,6 +53,11 @@ footer {
     text-align: center;
 }
 
+aside h2 {
+    position: absolute;
+    left: 120px;
+}
+
 /* CSS Selectors */
 
 .box {
@@ -63,7 +68,3 @@ footer {
     color: #000;
 }
 
-aside h2 {
-    position: absolute;
-    left: 120px;
-}
