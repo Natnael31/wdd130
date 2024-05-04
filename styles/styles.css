@@ -38,6 +38,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     text-align: center;
 }
@@ -55,11 +56,11 @@ footer {
 
 aside h2 {
     position: absolute;
-    left: 120px;
+    top: 30px;
+    left: 100px;
 }
 
 /* CSS Selectors */
-
 .box {
     margin: 1rem;
     padding: 1rem;
