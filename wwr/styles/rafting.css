@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    --primary-color :#544B3D;    
+    --secondary-color:#56A3A6;
+    --accent1-color: #CEBACF;
+    --accent2-color: #F4EBBE;
+
+    --heading-font: 'Roboto Slab', serif; 
+    --paragraph-font: 'Roboto Slab', serif; 
+
+    --nav-background-color:#32021F;   
+    --nav-link-color:#CEBACF;   
+    --nav-hover-link-color: #544B3D;  
+    --nav-hover-background-color: #F4EBBE; 
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    
+}
+
+.hero h1 {
+    color: white;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    background-color: #22211f;
+    width: 104.5%;
+    opacity: 0.8;
+}
+
+h2 {
+    color: var(--nav-background-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: #544B3D;
+}
+.hero p {
+    color: #3b045f;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 980px;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    background-color: rgb(146, 143, 173);
+    opacity: 0.85;
+}
+
+article img {
+    width: 200px;
+    height: auto; 
+    float: right;
+    padding: 20px;
+}
+
