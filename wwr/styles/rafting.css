@@ -32,6 +32,7 @@ h1, h2 {
 
 h2 {
     color: var(--nav-background-color);
+    text-align: center;
 }
 
 p {
@@ -77,3 +78,83 @@ article img {
     padding: 20px;
 }
 
+header {
+	display: grid;
+    margin: 1rem auto;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+header div{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+	width: 150px;
+	height: auto
+}
+
+header nav {
+    grid-column: 3/4;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+}
+
+header nav a{
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    border-right: dotted 1px #22211f;
+}
+
+header nav a:last-child {
+    border-right: none
+}
+
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content img {
+    margin: 1rem;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+.adventure img {
+    width: 141px;
+    height: 100px;
+}
+figcaption {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+}
+
+footer p{
+    grid-column: 30/40;
+}
+
+footer nav{
+    grid-column: 50/50;
+}
