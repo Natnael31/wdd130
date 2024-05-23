@@ -15,7 +15,7 @@
     --nav-hover-background-color: #F4EBBE; 
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     
 }
@@ -33,6 +33,9 @@ h1, h2 {
 h2 {
     color: var(--nav-background-color);
     text-align: center;
+}
+h3{
+    color: var(--nav-background-color);
 }
 
 p {
@@ -147,6 +150,7 @@ figcaption {
 }
 
 footer {
+    margin-top: 20px;
     display: grid;
 }
 
@@ -156,4 +160,77 @@ footer p{
 
 footer nav{
     grid-column: 50/50;
+}
+
+.adress{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.map {
+    margin-top: -30px;
+}
+
+.employee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee img{
+    width: 170px;
+    height: 150px;
+}
+
+form {
+    width: 940px;
+    margin: 10 auto; 
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+label {
+    display: block;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"], textarea {
+    width: 40%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+button{
+    display: block;
+    margin-top: 20px;
+    width: 40%;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+.main{
+    border-bottom: 1px solid #ccc
 }
