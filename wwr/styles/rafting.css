@@ -267,25 +267,15 @@ opacity: 0.7;
     background-color: darkslategrey;
 }
 
-.trip h1{
-    position: absolute;
-    top: -20px;
-    width: 980px;
-}
-.trip img{
-    width: 980px;
-    height: 600px;
-}
-.trip_button{
-    position: absolute;
-    top: 750px;
-    margin-left: 20px;
+.trip {
+    background-image: url("../images/hero3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 .trip h3 {
     margin-top: 210px;
     color: #22211f;
-    position: absolute;
-    top: 450px;
 }
 
 .trip_main img {
